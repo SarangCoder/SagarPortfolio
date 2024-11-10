@@ -1,11 +1,15 @@
 import PersonalInfo from "./PersonalInfo";
 import SideNav from "./SideNav";
+import Mobile from "./mobile";
 
 export default function (){
     return(
-        <div className="flex justify-between mt-5 flex-wrap">
-            <PersonalInfo/>
-            <SideNav/>
+        <div className="mt-5">
+            <div className="flex justify-between flex-wrap">
+                <PersonalInfo/>
+                <SideNav/>
+            </div>
+            <Mobile />
         </div>
     )
 }
