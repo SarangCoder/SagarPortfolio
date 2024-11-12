@@ -1,7 +1,7 @@
 
-import Contact from "./Component/Contact"
-import ExpSkillProjSection from "./Component/ExpSkillProjSection"
+
 import TopInfo from "./Component/home/TopInfo"
+import ProjectSection from "./Component/project/ProjectSection"
 
 function App() {
 
@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="max-w-screen-xl mx-[auto]">
       <TopInfo/>
+      <ProjectSection/>
     </div>
   )
 }
