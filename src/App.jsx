@@ -2,6 +2,7 @@
 
 import TopInfo from "./Component/home/TopInfo"
 import ProjectSection from "./Component/project/ProjectSection"
+import ServiceSection from "./Component/service/ServiceSection"
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <div className="max-w-screen-xl mx-[auto]">
       <TopInfo/>
       <ProjectSection/>
+      <ServiceSection/>
     </div>
   )
 }

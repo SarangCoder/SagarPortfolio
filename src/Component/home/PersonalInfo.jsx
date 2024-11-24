@@ -6,7 +6,7 @@ export default function () {
                 <div className="h-56 w-60 rounded-e-[100px] bg-cover bg-center " style={{backgroundImage: `url(${profileImage})`}}></div>
                 <div className="mx-8 pt-5">
                     <h1 className="text-4xl font-bold mb-1">Sagar Ramrudri</h1>
-                    <h3 className="mb-2 text-base"><span className="text-xl font-semibold text-orange-500">MERN</span> Stack Developer</h3>
+                    <h2 className="mb-2 text-base text-xl font-bold"><span className="text-2xl font-semibold text-orange-500">MERN</span> Stack Developer</h2>
                     <p className="text-base">Targeting MERN Developer roles with an organization of high repute with a scope of improving knowledge and further career growth.</p>
                 </div>
             </div>
