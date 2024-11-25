@@ -11,7 +11,7 @@ export default function ({ icon, serviceName, serviceDes}) {
                 <ButtonExplore btnBg={"px-4 py-2 bg-[#FBF78C] w-fit text-black rounded-3xl text-center"} btnName={"Let's Chat"} btnIcon={'fa-solid fa-headphones'} />
             </div>
 
-            <div className="w-72 h-80 me-10 rounded-2xl" style={{backgroundImage: `url(${serviceImg})`}}></div>
+            <div className="w-72 h-80 me-10 rounded-2xl bg-cover" style={{backgroundImage: `url(${serviceImg})`}}></div>
         </div>
     )
 }
